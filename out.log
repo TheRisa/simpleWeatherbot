@@ -1,0 +1,1326 @@
+Rasa process starting
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'actions.ActionWeather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+hello                                              HEAD, GET, OPTIONS             /
+list_trackers                                      HEAD, GET, OPTIONS             /conversations
+execute_action                                     OPTIONS, POST                  /conversations/[sender_id]/execute
+log_message                                        OPTIONS, POST                  /conversations/[sender_id]/messages
+predict                                            OPTIONS, POST                  /conversations/[sender_id]/predict
+respond                                            HEAD, GET, OPTIONS, POST       /conversations/[sender_id]/respond
+retrieve_story                                     HEAD, GET, OPTIONS             /conversations/[sender_id]/story
+retrieve_tracker                                   HEAD, GET, OPTIONS             /conversations/[sender_id]/tracker
+replace_events                                     OPTIONS, PUT                   /conversations/[sender_id]/tracker/events
+get_domain                                         HEAD, GET, OPTIONS             /domain
+evaluate_stories                                   OPTIONS, POST                  /evaluate
+continue_training                                  OPTIONS, POST                  /finetune
+load_model                                         OPTIONS, POST                  /model
+tracker_predict                                    OPTIONS, POST                  /predict
+static                                             HEAD, GET, OPTIONS             /static/[filename]
+status                                             HEAD, GET, OPTIONS             /status
+version                                            HEAD, GET, OPTIONS             /version
+custom_webhook_CmdlineInput.health                 HEAD, GET, OPTIONS             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greet', 'confidence': 0.8321721873091839}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '4'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. May I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'in Rome' with intent '{'name': 'inform', 'confidence': 0.7298574221119124}' and entities '[{'start': 3, 'end': 7, 'value': 'rome', 'entity': 'location', 'confidence': 0.6939310353744078, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_location' with prob 0.64.
+Action 'utter_ask_location' ended with events '[]'
+Bot utterance 'BotUttered(text: In what location?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_utter_ask_location': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'in Rome' with intent '{'name': 'inform', 'confidence': 0.7298574221119124}' and entities '[{'start': 3, 'end': 7, 'value': 'rome', 'entity': 'location', 'confidence': 0.6939310353744078, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_utter_ask_location': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_location' with prob 0.60.
+Action 'utter_ask_location' ended with events '[]'
+Bot utterance 'BotUttered(text: In what location?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_utter_ask_location': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'in Rome' with intent '{'name': 'inform', 'confidence': 0.7298574221119124}' and entities '[{'start': 3, 'end': 7, 'value': 'rome', 'entity': 'location', 'confidence': 0.6939310353744078, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 14 events
+Current slot values: 
+
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_utter_ask_location': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_weather' with prob 0.58.
+Calling action endpoint to run action 'action_weather'.
+Action 'action_weather' ended with events '[]'
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_weather': 1.0}]
+There is no memorised next action
+Feature 'prev_action_weather' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+hello                                              OPTIONS, GET, HEAD             /
+list_trackers                                      OPTIONS, GET, HEAD             /conversations
+execute_action                                     POST, OPTIONS                  /conversations/[sender_id]/execute
+log_message                                        POST, OPTIONS                  /conversations/[sender_id]/messages
+predict                                            POST, OPTIONS                  /conversations/[sender_id]/predict
+respond                                            POST, OPTIONS, GET, HEAD       /conversations/[sender_id]/respond
+retrieve_story                                     OPTIONS, GET, HEAD             /conversations/[sender_id]/story
+retrieve_tracker                                   OPTIONS, GET, HEAD             /conversations/[sender_id]/tracker
+replace_events                                     PUT, OPTIONS                   /conversations/[sender_id]/tracker/events
+get_domain                                         OPTIONS, GET, HEAD             /domain
+evaluate_stories                                   POST, OPTIONS                  /evaluate
+continue_training                                  POST, OPTIONS                  /finetune
+load_model                                         POST, OPTIONS                  /model
+tracker_predict                                    POST, OPTIONS                  /predict
+static                                             OPTIONS, GET, HEAD             /static/[filename]
+status                                             OPTIONS, GET, HEAD             /status
+version                                            OPTIONS, GET, HEAD             /version
+custom_webhook_CmdlineInput.health                 OPTIONS, GET, HEAD             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                POST, OPTIONS                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greet', 'confidence': 0.8321721873091839}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '4'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hi. May I help you?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'in Rome?' with intent '{'name': 'inform', 'confidence': 0.8008781421808836}' and entities '[]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_inform': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_location' with prob 0.64.
+Action 'utter_ask_location' ended with events '[]'
+Bot utterance 'BotUttered(text: In what location?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_inform': 1.0}, {'prev_utter_ask_location': 1.0, 'intent_inform': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'in Rome' with intent '{'name': 'inform', 'confidence': 0.7298574221119124}' and entities '[{'start': 3, 'end': 7, 'value': 'rome', 'entity': 'location', 'confidence': 0.6939310353744078, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 10 events
+Current slot values: 
+
+Current tracker state [{'prev_utter_ask_location': 1.0, 'intent_inform': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_location' with prob 0.60.
+Action 'utter_ask_location' ended with events '[]'
+Bot utterance 'BotUttered(text: In what location?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_utter_ask_location': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'in Rome' with intent '{'name': 'inform', 'confidence': 0.7298574221119124}' and entities '[{'start': 3, 'end': 7, 'value': 'rome', 'entity': 'location', 'confidence': 0.6939310353744078, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 14 events
+Current slot values: 
+
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_utter_ask_location': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_weather' with prob 0.59.
+Calling action endpoint to run action 'action_weather'.
+Action 'action_weather' ended with events '[]'
+Current tracker state [{'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_listen': 1.0}, {'entity_location': 1.0, 'intent_inform': 1.0, 'prev_action_weather': 1.0}]
+There is no memorised next action
+Feature 'prev_action_weather' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Tried to set non existent slot 'location'. Make sure you added all your slots to your domain file.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+validation.invalid
+ --- All found errors ---
+["Value '[{'location': {'type': 'tetxt'}}]' is not a dict. Value path: '/slots'"]
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models\nlu\default\weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005

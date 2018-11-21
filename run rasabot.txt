@@ -1,0 +1,6 @@
+run bot
+python -m rasa_core.run --auth_token rasabot -d models\dialogue -u models\nlu\default\weathernlu -o out.log --endpoints endpoints.yml --enable_api
+
+
+run server
+python -m rasa_core_sdk.endpoint --actions actions

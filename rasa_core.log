@@ -1,0 +1,196 @@
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Failed to parse intent end entities from ''. 
+Encountered an exception while running action 'actions.ActionWeather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 321, in run
+    "".format(self.name(), DOCS_BASE_URL))
+Exception: The model predicted the custom action 'actions.ActionWeather' but you didn't configure an endpoint to run this custom action. Please take a look at the docs and set an endpoint configuration. https://rasa.com/docs/core/customactions/
+Rasa process starting
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Pool size changed, may indicate binary incompatibility. Expected 48 from C header, got 64 from PyObject
+  return f(*args, **kwds)
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\importlib\_bootstrap.py:205: RuntimeWarning: cymem.cymem.Address size changed, may indicate binary incompatibility. Expected 24 from C header, got 40 from PyObject
+  return f(*args, **kwds)
+
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Available web server routes: 
+hello                                              OPTIONS, HEAD, GET             /
+list_trackers                                      OPTIONS, HEAD, GET             /conversations
+execute_action                                     OPTIONS, POST                  /conversations/[sender_id]/execute
+log_message                                        OPTIONS, POST                  /conversations/[sender_id]/messages
+predict                                            OPTIONS, POST                  /conversations/[sender_id]/predict
+respond                                            OPTIONS, HEAD, POST, GET       /conversations/[sender_id]/respond
+retrieve_story                                     OPTIONS, HEAD, GET             /conversations/[sender_id]/story
+retrieve_tracker                                   OPTIONS, HEAD, GET             /conversations/[sender_id]/tracker
+replace_events                                     OPTIONS, PUT                   /conversations/[sender_id]/tracker/events
+get_domain                                         OPTIONS, HEAD, GET             /domain
+evaluate_stories                                   OPTIONS, POST                  /evaluate
+continue_training                                  OPTIONS, POST                  /finetune
+load_model                                         OPTIONS, POST                  /model
+tracker_predict                                    OPTIONS, POST                  /predict
+static                                             OPTIONS, HEAD, GET             /static/[filename]
+status                                             OPTIONS, HEAD, GET             /status
+version                                            OPTIONS, HEAD, GET             /version
+custom_webhook_CmdlineInput.health                 OPTIONS, HEAD, GET             /webhooks/rest/
+custom_webhook_CmdlineInput.receive                OPTIONS, POST                  /webhooks/rest/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'default'.
+Received user message 'hi' with intent '{'name': 'greet', 'confidence': 0.8321721873091839}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+
+Current tracker state [{}, {'intent_greet': 1.0, 'prev_action_listen': 1.0}]
+There is a memorised next action '4'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Hello! How can i help?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'intent_greet': 1.0, 'prev_action_listen': 1.0}, {'intent_greet': 1.0, 'prev_utter_greet': 1.0}]
+There is a memorised next action '0'
+Predicted next action using policy_0_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'default'
+Received user message 'what's the weather in Rome today?' with intent '{'name': 'inform', 'confidence': 0.9031990558820556}' and entities '[{'start': 22, 'end': 26, 'value': 'rome', 'entity': 'location', 'confidence': 0.8023974845408117, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 6 events
+Current slot values: 
+
+Current tracker state [{'intent_greet': 1.0, 'prev_utter_greet': 1.0}, {'prev_action_listen': 1.0, 'intent_inform': 1.0, 'entity_location': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'utter_ask_location' with prob 0.64.
+Action 'utter_ask_location' ended with events '[]'
+Bot utterance 'BotUttered(text: In what location?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_action_listen': 1.0, 'intent_inform': 1.0, 'entity_location': 1.0}, {'prev_utter_ask_location': 1.0, 'intent_inform': 1.0, 'entity_location': 1.0}]
+There is no memorised next action
+Predicted next action using policy_1_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
