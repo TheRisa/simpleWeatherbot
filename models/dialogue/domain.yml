@@ -2,22 +2,31 @@
 ---
 actions:
 - utter_greet
-- utter_goodbye
-- action_weather
 - utter_ask_location
+- utter_you_are_welcome
+- action_date_weather
+- action_weather
+- utter_goodbye
 config:
   store_entities_as_slots: true
 entities:
 - location
+- date
 forms: []
 intents:
 - inform:
     use_entities: true
-- goodbye:
+- thanks:
     use_entities: true
 - greet:
-    use_entities: true
+    use_entities: false
+- goodbye:
+    use_entities: false
 slots:
+  date:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
   location:
     auto_fill: true
     initial_value: null
@@ -32,3 +41,6 @@ templates:
   utter_greet:
   - text: Hello! How can i help?
   - text: Hi. May I help you?
+  utter_you_are_welcome:
+  - text: You are welcome.
+  - text: The pleasure is mine.

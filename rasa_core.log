@@ -194,3 +194,52 @@ There is no memorised next action
 Predicted next action using policy_1_KerasPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Rasa process starting
+C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Failed to run custom action 'action_listen'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_listen'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 338, in run
+    response.raise_for_status()
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\requests\models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\processor.py", line 351, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "C:\Users\drisaliti\Desktop\rasa-environment361\env\lib\site-packages\rasa_core\actions\action.py", line 358, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.

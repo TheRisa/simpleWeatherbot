@@ -22,7 +22,7 @@ def run_weather_interactive(input_channel, nlu_interpreter,
                   policies=[MemoizationPolicy(max_history=2), KerasPolicy()],
                   interpreter=nlu_interpreter)
     data = agent.load_data(training_data_file)
-    agent.train(data, input_channel=input_channel, batch_size=50, epochs=200, max_training_samples=300)
+    #agent.train(data, augmentation_factor = 50, epochs = 100, batch_size = 10, validation_split = 0.2)
     ###agent = Agent.load('models/dialogue', interpreter)
     agent = Agent.load('models/dialogue', interpreter = nlu_interpreter, action_endpoint=EndpointConfig(url = "http://localhost:5055/webhook"))
     interactive.run_interactive_learning(agent, training_data_file)

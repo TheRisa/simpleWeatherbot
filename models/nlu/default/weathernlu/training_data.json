@@ -17,6 +17,12 @@
             "end": 28,
             "value": "Berlin",
             "entity": "location"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "at the moment",
+            "entity": "date"
           }
         ],
         "text": "What's the weather in Berlin at the moment?"
@@ -77,6 +83,12 @@
             "end": 28,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "today",
+            "entity": "date"
           }
         ],
         "text": "What's the weather in London today?"
@@ -101,6 +113,12 @@
             "end": 39,
             "value": "Vilnius",
             "entity": "location"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "right now",
+            "entity": "date"
           }
         ],
         "text": "I wonder what is the weather in Vilnius right now?"
@@ -121,6 +139,12 @@
             "end": 32,
             "value": "Barcelona",
             "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "today",
+            "entity": "date"
           }
         ],
         "text": "Is the weather nice in Barcelona today?"
@@ -133,6 +157,12 @@
             "end": 20,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "today",
+            "entity": "date"
           }
         ],
         "text": "I am going to London today and I wonder what is the weather out there?"
@@ -220,6 +250,78 @@
           }
         ],
         "text": "The weather condition in Italy"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 42,
+            "end": 48,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "12/10/2018",
+            "entity": "date"
+          }
+        ],
+        "text": "What will the weather be on 12/10/2018 in London?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Rome",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "30/05/2018",
+            "entity": "date"
+          }
+        ],
+        "text": "What's the weather in Rome on 30/05/2018"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Florence",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 53,
+            "value": "this tuesday",
+            "entity": "date"
+          }
+        ],
+        "text": "I wonder what is the weather in Florence this tuesday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "next thursday",
+            "entity": "date"
+          }
+        ],
+        "text": "Is the weather nice in Dublin next thursday?"
       }
     ],
     "regex_features": [],

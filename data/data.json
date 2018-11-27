@@ -1,4 +1,4 @@
-{
+﻿{
   "rasa_nlu_data": {
     "common_examples": [
       {
@@ -20,10 +20,16 @@
             "end": 28,
             "value": "Berlin",
             "entity": "location"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "at the moment",
+            "entity": "date"
           }
         ]
       },
-	  {
+      {
         "text": "hey",
         "intent": "greet",
         "entities": []
@@ -59,11 +65,6 @@
         "entities": []
       },
       {
-        "text": "goodbye",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
         "text": "bye bye",
         "intent": "goodbye",
         "entities": []
@@ -92,6 +93,12 @@
             "end": 28,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 29,
+            "end": 34,
+            "value": "today",
+            "entity": "date"
           }
         ]
       },
@@ -116,6 +123,12 @@
             "end": 39,
             "value": "Vilnius",
             "entity": "location"
+          },
+          {
+            "start": 40,
+            "end": 49,
+            "value": "right now",
+            "entity": "date"
           }
         ]
       },
@@ -138,6 +151,12 @@
             "end": 32,
             "value": "Barcelona",
             "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 38,
+            "value": "today",
+            "entity": "date"
           }
         ]
       },
@@ -150,6 +169,12 @@
             "end": 20,
             "value": "London",
             "entity": "location"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "today",
+            "entity": "date"
           }
         ]
       },
@@ -236,6 +261,229 @@
             "entity": "location"
           }
         ]
+      },
+      {
+        "text": "What will the weather be on 12/10/2018 in London?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 42,
+            "end": 48,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 28,
+            "end": 38,
+            "value": "12/10/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "What's the weather in Rome on 30/05/2018?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Rome",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 40,
+            "value": "30/05/2018",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what is the weather in Florence this tuesday?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 32,
+            "end": 40,
+            "value": "Florence",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 53,
+            "value": "this tuesday",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "Is the weather nice in Dublin next thursday?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Dublin",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 43,
+            "value": "next thursday",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "Show me the weather in London on 2018/12/11",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 33,
+            "end": 43,
+            "value": "2018/12/11",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "London 2018/10/22",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "London",
+            "entity": "location"
+          },
+          {
+            "start": 7,
+            "end": 17,
+            "value": "2018/10/22",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "what's the weather in Rome on 30/11",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Rome",
+            "entity": "location"
+          },
+          {
+            "start": 30,
+            "end": 35,
+            "value": "30/11",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "What's the weather in Rome next friday?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 22,
+            "end": 26,
+            "value": "Rome",
+            "entity": "location"
+          },
+          {
+            "start": 27,
+            "end": 38,
+            "value": "next friday",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "Paris 13/12",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Paris",
+            "entity": "location"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "13/12",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "Paris this monday",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Paris",
+            "entity": "location"
+          },
+          {
+            "start": 6,
+            "end": 17,
+            "value": "this monday",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "I wonder what's the weather in Dublin on 27/11",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "Dublin",
+            "entity": "location"
+          },
+          {
+            "start": 41,
+            "end": 46,
+            "value": "27/11",
+            "entity": "date"
+          }
+        ]
+      },
+      {
+        "text": "Hola",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "See you soon",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thank you",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "Usefull information",
+        "intent": "thanks",
+        "entities": []
+      },
+      {
+        "text": "Thanks",
+        "intent": "thanks",
+        "entities": []
       }
     ]
   }

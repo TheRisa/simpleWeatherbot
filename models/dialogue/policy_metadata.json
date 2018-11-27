@@ -2,16 +2,23 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
+        "date",
         "location"
       ]
     },
-    "action_weather": {
+    "action_date_weather": {
+      "slots": []
+    },
+    "utter_you_are_welcome": {
       "slots": []
     },
     "utter_goodbye": {
       "slots": []
     },
     "utter_ask_location": {
+      "slots": []
+    },
+    "action_weather": {
       "slots": []
     },
     "utter_greet": {
@@ -22,12 +29,14 @@
   "python": "3.6.1",
   "max_histories": [
     2,
-    5
+    5,
+    null
   ],
   "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
   "policy_names": [
     "rasa_core.policies.memoization.MemoizationPolicy",
-    "rasa_core.policies.keras_policy.KerasPolicy"
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
   ],
-  "trained_at": "20181121-150151"
+  "trained_at": "20181127-114007"
 }

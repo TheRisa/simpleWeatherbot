@@ -1,20 +1,30 @@
 %YAML 1.1
 ---
 actions:
-- utter_goodbye
-- action_weather
-- utter_ask_location
 - utter_greet
+- utter_you_are_welcome
+- utter_goodbye
+- utter_ask_location
+- action_listen
+- action_date_weather
+- action_weather
 config:
   store_entities_as_slots: true
 entities:
 - location
+- date
 forms: []
 intents:
 - inform
-- greet
-- goodbye
+- thanks
+- greet:
+    use_entities: false
+- goodbye:
+    use_entities: false
 slots:
+  date:
+    auto_fill: true
+    type: rasa_core.slots.TextSlot
   location:
     auto_fill: true
     type: rasa_core.slots.TextSlot
@@ -28,3 +38,6 @@ templates:
   utter_greet:
   - text: Hello! How can i help?
   - text: Hi. May I help you?
+  utter_you_are_welcome:
+  - text: You are welcome.
+  - text: The pleasure is mine.

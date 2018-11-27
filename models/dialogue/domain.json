@@ -3,15 +3,20 @@
     "intent_goodbye",
     "intent_greet",
     "intent_inform",
+    "intent_thanks",
     "entity_location",
+    "entity_date",
+    "slot_date_0",
     "slot_location_0",
     "prev_action_listen",
     "prev_action_restart",
     "prev_action_default_fallback",
     "prev_action_deactivate_form",
     "prev_utter_greet",
-    "prev_utter_goodbye",
+    "prev_utter_ask_location",
+    "prev_utter_you_are_welcome",
+    "prev_action_date_weather",
     "prev_action_weather",
-    "prev_utter_ask_location"
+    "prev_utter_goodbye"
   ]
 }
